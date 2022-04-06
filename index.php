@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="styles.css">
-    <?php include 'head.php';?>
+    <?php include 'includes/head.php';?>
     <body> 
         <h1>Welcome</h1>
         <p>Text</p>
-        <?php include 'header.php';?>
-        <?php include 'footer.php';?>
+        <?php include 'includes/header.php';?>
+        <?php include 'includes/footer.php';?>
     </body>
 </html>
