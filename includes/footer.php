@@ -1,3 +1,4 @@
 <footer>
-        <p>Peu de página</p>
-    </footer>
+    <p>Autor: Ehrgewal</p>
+    <p><a href="mailto:proba@example.com">proba@example.com</a></p>
+</footer>
