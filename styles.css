@@ -1,0 +1,15 @@
+head {
+    color: rgb(10, 102, 22);
+    text-align: center;
+}
+h1 {
+    color: red;
+    background-color: pink;
+}
+p {
+    color: azure;
+    height: auto;
+    width: auto;
+    background-color: bisque;
+    margin: 20px;
+}
