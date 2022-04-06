@@ -1,1 +1,1 @@
-# tenda-ofim-tica
+Treball en grup
