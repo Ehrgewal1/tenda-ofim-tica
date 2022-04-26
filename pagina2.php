@@ -11,9 +11,9 @@ include "includes/header.php";
     <section>
         <h1>Pagina2</h1>
     </section>
-    <footer>
-        <p>Peu de página</p>
-    </footer>
+<?php
+include "includes/footer.php";
+?>
 </body>
 
 </html>

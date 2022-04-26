@@ -5,6 +5,7 @@
 include "includes/head.php";
 ?>
 <body>
+
 <?php
 include "includes/header.php";
 ?>
@@ -22,9 +23,9 @@ include "includes/header.php";
                 <button type=submit >Enviar</button>
             </form>
         </div>
-    <footer>
-        <p>Peu de página</p>
-    </footer>
+<?php
+include "includes/footer.php";
+?>
 </body>
 
 </html>
