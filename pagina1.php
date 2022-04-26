@@ -2,14 +2,12 @@
 <html>
 
 <?php
-include "pagina1/head.php";
+include "includes/head.php";
 ?>
 <body>
-    <header>
-        <a href="index.php">Index</a>
-        <a href="pagina1.php">Pagina1</a>
-        <a href="pagina2.php">Pagina2</a>
-    </header>
+<?php
+include "includes/header.php";
+?>
     <section>
         <h1>Insertar nou client</h1>
     </section>
