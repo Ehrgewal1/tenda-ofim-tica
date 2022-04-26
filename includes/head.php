@@ -1,4 +1,4 @@
-<?php include 'includes/database.php'; ?>
+<?php require 'includes/database.php'; ?>
 <head>
     <meta charset="utf-8"/>
     <title>Pàgina de test</title>
