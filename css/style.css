@@ -1,8 +1,12 @@
 h1{
-    font-size: 30px;
+    font-size: 40px;
     color: #003cff;
     background-color: #ffffff;
 }
 div{
     font-size: 20px;
+}
+
+a{
+    font-size: 16px;
 }
