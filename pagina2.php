@@ -15,5 +15,5 @@ include "includes/header.php";
 include "includes/footer.php";
 ?>
 </body>
-
+hola
 </html>
