@@ -9,7 +9,7 @@
         <p>tabla de clients</p>
 <selection>
 </selection>
-<table>
+<table border="1">
     <thead>
         <tr>
             <td>ID</td>
@@ -24,11 +24,11 @@
     $result = mysqli_query($dbh, $query) or die(mysqli_error($dbh));
     while ($row = mysqli_fetch_assoc($result)) {
         echo "<tr>
-            <td>".$row['id']."</td>
-            <td>".$row['nom']."</td>
-            <td>".$row['pais']."</td>
-            <td>".$row['cp']."</td>
-    </tr>";
+                <td>".$row['id']."</td>
+                <td>".$row['nom']."</td>
+                <td>".$row['pais']."</td>
+                <td>".$row['cp']."</td>
+            </tr>";
     }
     ?>
 </tbody>
