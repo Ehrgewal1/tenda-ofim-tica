@@ -8,7 +8,7 @@
         <h1>Welcome</h1>
         <p>tabla de clients</p>
         <a href="pagina1.php">
-            <input type="button" value="insertar client" style="border-bottom-style:solid;margin-bottom: 15px;">
+            <input type="button" value="Insertar Client" style="border-bottom-style:solid;margin-bottom: 15px;">
         </a>
 <selection>
 </selection>
