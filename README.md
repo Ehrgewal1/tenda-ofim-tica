@@ -1,2 +1,0 @@
-Treball en grup
-sda

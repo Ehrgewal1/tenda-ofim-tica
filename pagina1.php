@@ -14,11 +14,25 @@ include "includes/header.php";
     </section>
         <div> 
             <form>
-                <label>DNI</label>    
-                <input type=text required maxlength=12 minlength=6>
                 <div>
-                <label>data</label>
-                <input type=date name=data naixament>       
+                    <label>Nom</label>  
+                    <input type="text" id="nom" placeholder="nom" required="required">
+                </div>
+                <div>
+                    <label for="codigopostal">Código Postal</label>
+                    <input type="text" id="codigopostal" placeholder="código postal" maxlength="6" required="required">
+                </div>
+                <div>
+                    <label>Data</label>
+                    <input type="date" id="data" naixament required="required">
+                </div>
+                <div>
+                    <label for="pais">País</label>
+                    <select name="pais" id="pais" required="required"> 
+                        <option value="ES">España</option>
+                        <option value="FR">Francia</option>
+                        <option value="IT">Italia</option>
+                    </select>
                 </div>
                 <button type=submit >Enviar</button>
             </form>
