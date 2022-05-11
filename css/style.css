@@ -1,10 +1,12 @@
 h1{
-    font-size: 20px;
-    color: #c03737;
-    background-color: #5d5dfc;
-
+    font-size: 40px;
+    color: #003cff;
+    background-color: #ffffff;
 }
 div{
     font-size: 20px;
-    background-color: #b57beb;
+}
+
+a{
+    font-size: 16px;
 }
