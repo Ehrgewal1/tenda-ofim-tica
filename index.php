@@ -7,6 +7,9 @@
 </html>
         <h1>Welcome</h1>
         <p>tabla de clients</p>
+        <a href="pagina1.php">
+            <input type="button" value="insertar client" style="border-bottom-style:solid;margin-bottom: 15px;">
+        </a>
 <selection>
 </selection>
 <table border="1">
@@ -21,7 +24,7 @@
 <tbody>
     <?php
     $query = "SELECT * FROM policia";
-    $result = mysqli_query($dbh, $query) or die(mysqli_error($dbh));
+    $result = mysqli_query($dbh, $query) or die (mysqli_error($dbh));
     while ($row = mysqli_fetch_assoc($result)) {
         echo "<tr>
                 <td>".$row['id']."</td>
