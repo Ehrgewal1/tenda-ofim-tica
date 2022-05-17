@@ -24,7 +24,9 @@
                 <label for="Id" class="form-label">Id</label>
                 <input type="password" id="Id" class="form-control">
             </div>    
-            <button type="button" class="btn btn-primary">Enviar</button>
+            <button type="button" class="btn btn-primary">
+            <i class="bi-send"></i>
+            </button>
         </form>
     </body>
     <?php include 'includes/footer.php';?>
