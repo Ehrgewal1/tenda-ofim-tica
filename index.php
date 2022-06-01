@@ -31,7 +31,9 @@
                 <td>".$row['nom']."</td>
                 <td>".$row['pais']."</td>
                 <td>".$row['cp']."</td>
-            </tr>";
+                <td><a class='btn btn-primary' href='scripts/insert-client.php?id=".$row['id']."'><i class="bi-pencil"></i>
+                <td><a class='btn btn-danger' href='scripts/delete_client.php?id=".$row['id']."'><i class="bi-trash"></i>
+                </tr>";
     }
     ?>
 </tbody>
