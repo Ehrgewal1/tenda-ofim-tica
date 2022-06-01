@@ -12,7 +12,7 @@
         </a>
 <selection>
 </selection>
-<table border="1">
+<table>
     <thead>
         <tr>
             <td>ID</td>
@@ -31,9 +31,9 @@
                 <td>".$row['nom']."</td>
                 <td>".$row['pais']."</td>
                 <td>".$row['cp']."</td>
-                <td><a class='btn btn-primary' href='scripts/insert-client.php?id=".$row['id']."'><i class="bi-pencil"></i>
-                <td><a class='btn btn-danger' href='scripts/delete_client.php?id=".$row['id']."'><i class="bi-trash"></i>
-                </tr>";
+                <td><a class='btn btn-primary' href='scripts/insert-client.php?id=" .$row['id']."'>Editar</a></td>
+                <td><a class='btn btn-danger' href='scripts/delete_client.php?id=" .$row['id']."'>Eliminar</a></td>
+            </tr>";
     }
     ?>
 </tbody>
