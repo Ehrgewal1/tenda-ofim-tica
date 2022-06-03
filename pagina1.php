@@ -35,7 +35,7 @@ include "includes/header.php";
                         <option value="IT">Italia</option>
                     </select>
                 </div>
-                <button type=submit ><i class="bi-check"></i></button>
+                <input type="button" value="Enviar"> 
             </form>
         </div>
 <?php

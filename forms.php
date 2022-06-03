@@ -8,6 +8,7 @@
             <div class="mt-3" class="mb-3">
                 <label for="Nom" class="form-label">Nom</label>
                 <input type="text" id="Nom" class="form-control">
+                
             </div>
             <div class="mt-3" class="mb-3">
                 <label for="Llinatge" class="form-label">Llinatge</label>
