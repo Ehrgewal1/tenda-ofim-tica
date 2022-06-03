@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
     <?php include 'includes/head.php';?>
     <?php include 'includes/header.php';?>
     <body>
