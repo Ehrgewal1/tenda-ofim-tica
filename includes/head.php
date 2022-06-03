@@ -1,4 +1,7 @@
-<?php require 'includes/database.php'; ?>
+<?php 
+require 'includes/database.php'; 
+error_reporting(E_ALL & ~E_NOTICE);
+?>
 <head>
     <meta charset="utf-8"/>
     <title>Pàgina de test</title>

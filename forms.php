@@ -15,12 +15,12 @@
                 <input type="text" id="Llinatge" class="form-control">
             </div>    
             <div class="mt-3" class="mb-3">
-                <label for="Adreca" class="form-label">Adreça</label>
-                <input type="text" id="Adreca" class="form-control">
+                <label for="pais" class="form-label">Pais</label>
+                <input type="text" id="pais" class="form-control">
             </div>
             <div class="mt-3" class="mb-3">
-                <label for="CP" class="form-label">CP</label>
-                <input type="text" id="CP" class="form-control">
+                <label for="cp" class="form-label">CP</label>
+                <input type="text" id="cp" class="form-control">
             </div>
             <div class="mt-3" class="mb-3">
                 <label for="Id" class="form-label">Id</label>
