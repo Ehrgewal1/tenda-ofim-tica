@@ -32,7 +32,7 @@
                 <td>".$row['pais']."</td>
                 <td>".$row['cp']."</td>
                 <td><a class='btn btn-primary' href='scripts/insert-client.php?id=" .$row['id']."'>Editar</a></td>
-                <td><a class='btn btn-danger' href='scripts/delete_client.php?id=" .$row['id']."'>Eliminar</a></td>
+                <td><a class='btn btn-danger' href='scripts/delete_user.php?id=" .$row['id']."'>Eliminar</a></td>
             </tr>";
     }
     ?>
