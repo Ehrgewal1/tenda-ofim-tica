@@ -1,13 +1,12 @@
 <?php
 include '../includes/database.php';
 
-$email = $_POST['email_usuari'];
-$adreca = $_POST['adreca'];
-$cp = $_POST['CP'];
+$pais = $_POST['pais'];
+$cp = $_POST['cp'];
 $nom = $_POST['nom_usuari'];
 $id = $_POST['id'];
 
-$query = "INSERT INTO clients (nom, email, cp, adreca) VALUES('$nom', '$email', '$cp', '$adreca')";
+$query = "INSERT INTO policia (nom_usuari, cp, pais, id) VALUES('$nom', '$cp', '$pais', '$id')";
 
 $result = mysqli_query($dbh, $query);
 

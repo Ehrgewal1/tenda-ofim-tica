@@ -19,7 +19,6 @@
             <td>NOM</td>
             <td>PAÍS</td>
             <td>CP</td>
-            <td>DATA</td>
             <td>Opcions</td>
          </tr>
     </thead>
@@ -33,15 +32,17 @@
                 <td>".$row['nom']."</td>
                 <td>".$row['pais']."</td>
                 <td>".$row['cp']."</td>
-                <td>".$row['data']."</td>
-                <td>
-                    <a class='btn btn-primary' href='pagina2.php?id=" .$row['id']."'><i class='bi-pen'></i></a>
-                    <a class='btn btn-danger' href='delete_user.php?id=" .$row['id']."'><i class='bi-trash'></i></a>
-                </td>
-            </tr>";
-    }
-    ?>
-</tbody>
-</table>
-<?php include 'includes/footer.php';?>
-    </body>
+            </tr>"
+        }
+        <div>
+        <?php
+            include "includes/header.php";
+            ?>
+            <h1>Pagina 3</h1>
+        </div>
+    </div>
+<?php
+include "includes/footer.php";
+?>
+</body>
+</html>

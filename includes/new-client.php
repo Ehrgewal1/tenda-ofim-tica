@@ -6,15 +6,15 @@
 <?php
 $client = null;
 if(isset($_GET['id'])){
-    $id_client = $_GET['id'];
-    $query = "SELECT * FROM clients WHERE id = '$id_client' ";
+    $id = $_GET['id'];
+    $query = "SELECT * FROM policia WHERE id = '$id' ";
     $result = mysqli_query($dbh, $query) or die(mysqli_error($dbh));
     $client = mysqli_fetch_assoc($result);
 }
 
-$action = 'scripts/insert-client.php';
+$action = 'scripts/insert_user.php';
 if($client != null){
-    $action = 'scripts/update-client.php';
+    $action = 'scripts/update_user.php';
 }
 ?>
 
