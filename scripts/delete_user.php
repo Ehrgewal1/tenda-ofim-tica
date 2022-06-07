@@ -1,6 +1,11 @@
 <?php
 include '../includes/database.php';
 
+<<<<<<< Updated upstream
+=======
+error_reporting(E_ALL ^ E_NOTICE);
+
+>>>>>>> Stashed changes
 $pais = $_POST['pais'];
 $cp = $_POST['cp'];
 $nom = $_POST['nom'];
