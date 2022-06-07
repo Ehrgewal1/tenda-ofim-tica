@@ -35,7 +35,7 @@ include "includes/header.php";
                         <option value="IT">Italia</option>
                     </select>
                 </div>
-                <input type="button" value="Enviar"> 
+                <input type="button" value="Enviar" href="scripts/insert_user.php"> 
             </form>
         </div>
 <?php

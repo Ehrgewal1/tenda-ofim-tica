@@ -1,13 +1,17 @@
 <?php
 include '../includes/database.php';
 
-$email = $_POST['email_usuari'];
-$adreca = $_POST['adreca'];
-$cp = $_POST['CP'];
-$nom = $_POST['nom_usuari'];
+<<<<<<< Updated upstream
+=======
+error_reporting(E_ALL ^ E_NOTICE);
+
+>>>>>>> Stashed changes
+$pais = $_POST['pais'];
+$cp = $_POST['cp'];
+$nom = $_POST['nom'];
 $id = $_POST['id'];
 
-$query = "DELETE FROM clients WHERE id = '$id'";
+$query = "DELETE FROM policia WHERE id = '$id'";
 
 $result = mysqli_query($dbh, $query);
 

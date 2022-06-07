@@ -1,13 +1,19 @@
 <?php
 include '../includes/database.php';
 
-$email = $_POST['email_usuari'];
-$adreca = $_POST['adreca'];
-$cp = $_POST['CP'];
+$pais = $_POST['pais'];
+$cp = $_POST['cp'];
+<<<<<<< Updated upstream
 $nom = $_POST['nom_usuari'];
 $id = $_POST['id'];
 
-$query = "INSERT INTO clients (nom, email, cp, adreca) VALUES('$nom', '$email', '$cp', '$adreca')";
+$query = "INSERT INTO policia (nom_usuari, cp, pais, id) VALUES('$nom', '$cp', '$pais', '$id')";
+=======
+$nom = $_POST['nom'];
+$id = $_POST['id'];
+
+$query = "INSERT INTO clients (nom, pais, cp) VALUES('$nom', '$pais', '$cp')";
+>>>>>>> Stashed changes
 
 $result = mysqli_query($dbh, $query);
 

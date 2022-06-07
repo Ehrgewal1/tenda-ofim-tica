@@ -1,13 +1,21 @@
 <?php
 include '../includes/database.php';
 
-$email = $_POST['email_usuari'];
-$adreca = $_POST['adreca'];
-$cp = $_POST['CP'];
-$nom = $_POST['nom_usuari'];
+<<<<<<< Updated upstream
+=======
+error_reporting(E_ALL ^ E_NOTICE);
+
+>>>>>>> Stashed changes
+$pais = $_POST['pais'];
+$cp = $_POST['cp'];
+$nom = $_POST['nom'];
 $id = $_POST['id'];
 
-$query = "UPDATE clients SET nom = '$nom', email = '$email', cp = '$cp', adreca = '$adreca' WHERE id = '$id' ";
+<<<<<<< Updated upstream
+$query = "UPDATE policia SET nom = '$nom', cp = '$cp', pais = '$pais' WHERE id = '$id' ";
+=======
+$query = "UPDATE policia SET nom = '$nom', pais = '$pais', cp = '$cp' WHERE id = '$id'";
+>>>>>>> Stashed changes
 
 $result = mysqli_query($dbh, $query);
 
