@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html>
-
 <?php
 include "includes/head.php";
-
 ?>
-
 <body class="text-center">
-
 <?php
 include "includes/header.php";
 ?>
