@@ -1,13 +1,27 @@
 h1{
     font-size: 40px;
-    color: #3c4870;
-    background-color: #ffffff;
+    color: #5065aa;
+    text-align: center;
+}
+h1 span{
+    background-color: #d1d8ec;
 }
 div{
     font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;   
 }
 a{
     font-size: 16px;
+    text-align: center;
+}
+p{
+    color:aliceblue;
+}
+p span{
+    background-color: aqua;
+}
+tr{
+    background-color: rgb(191, 191, 211);
 }

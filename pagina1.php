@@ -5,7 +5,9 @@
 include "includes/head.php";
 
 ?>
-<body>
+
+<body class="text-center">
+
 <?php
 include "includes/header.php";
 ?>
