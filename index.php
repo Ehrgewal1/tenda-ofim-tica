@@ -15,13 +15,11 @@
 <div class="row justify-content-center">
     <div class="col-auto">
         <table class="table table-responsive">
-            <thead>
                 <tr>
                     <td>ID</td>
                     <td>NOM</td>
                     <td>PAÍS</td>
                     <td>CP</td>
-                    <td>DATA</td>
                     <td>Opcions</td>
                 </tr>
             </thead>
@@ -44,6 +42,41 @@
     </div>
 </div>
 </div>
+                    <td>DATA</td>
+            <thead>
+<selection>
+</selection>
+<table>
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>NOM</td>
+            <td>PAÍS</td>
+            <td>CP</td>
+            <td>FECHA</td>
+            <td>Opcions</td>
+         </tr>
+    </thead>
+<tbody>
+    <?php
+    $query = "SELECT * FROM policia";
+    $result = mysqli_query($dbh, $query) or die (mysqli_error($dbh));
+    while ($row = mysqli_fetch_assoc($result)) {
+        echo "<tr>
+                <td>".$row['id']."</td>
+                <td>".$row['nom']."</td>
+                <td>".$row['pais']."</td>
+                <td>".$row['cp']."</td>
+                <td>".$row['fecha']."</td>
+                <td>
+                    <a class='btn btn-primary' href='pagina2.php?id=" .$row['id']."'><i class='bi-pen'></i></a>
+                    <a class='btn btn-danger' href='delete_user.php?id=" .$row['id']."'><i class='bi-trash'></i></a>
+                </td>
+            </tr>";
+    }
+    ?>
+</tbody>
+</table>
 <?php include 'includes/footer.php';?>
 </body>
 
