@@ -37,25 +37,25 @@
                 <td>".$row['fecha']."</td>
                 <td>
                     <a class='btn btn-primary' href='pagina2.php?id=" .$row['id']."'><i class='bi-pen'></i></a>
-                    <a class='btn btn-danger' href='delete_user.php?id=" .$row['id']."'><i class='bi-trash'></i></a>
+                    <a class='btn btn-danger' href='pagina3.php?id=" .$row['id']."'><i class='bi-trash'></i></a>
                 </td>
             </tr>";
     }
     ?>
+            <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .background-image {
+                background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Logotipo_del_Cuerpo_Nacional_de_Polic%C3%ADa_de_Espa%C3%B1a.svg/1200px-Logotipo_del_Cuerpo_Nacional_de_Polic%C3%ADa_de_Espa%C3%B1a.svg.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 100vh;
+            }
+            </style>
 </tbody>
-</table>
+        </table>
 <?php include 'includes/footer.php';?>
 </body>
 
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    .background-image {
-        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Logotipo_del_Cuerpo_Nacional_de_Polic%C3%ADa_de_Espa%C3%B1a.svg/1200px-Logotipo_del_Cuerpo_Nacional_de_Polic%C3%ADa_de_Espa%C3%B1a.svg.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100vh;
-    }
-</style>
