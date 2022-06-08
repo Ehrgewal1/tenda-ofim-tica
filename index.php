@@ -38,6 +38,10 @@
                     <a class='btn btn-primary' href='pagina2.php?id=" .$row['id']."'><i class='bi-pen'></i></a>
                     <a class='btn btn-danger' href='delete_user.php?id=" .$row['id']."'><i class='bi-trash'></i></a>
                 </td>
+=======
+                <td><a class='btn btn-primary' href='scripts/update_user.php?id=" .$row['id']."'><i class='bi-pen'></i></a></td>
+                <td><a class='btn btn-danger' href='scripts/delete_user.php?id=" .$row['id']."'><i class='bi-trash'></i></a></td>
+>>>>>>> Stashed changes
             </tr>";
     }
     ?>
