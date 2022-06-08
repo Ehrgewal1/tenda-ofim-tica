@@ -42,17 +42,16 @@ if($client != null){
 
             <form action="<?=$action?>" method="POST">
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input value="<?=$client['email'];?>" type="email" name="email_usuari" class="form-control" aria-describedby="emailHelp" placeholder="Enter email" required>
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <label for="es">Pais</label>
+                    <input value="<?=$client['pais'];?>" type="text" name="pais" class="form-control" aria-describedby="pais" placeholder="pais" required>
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Nom i Llinatges</label>
-                    <input value="<?=$client['nom'];?>" type="text" name="nom_usuari" class="form-control"  placeholder="Nom i LLinatges"  required>
+                    <label for="exampleInputPassword1">Nom</label>
+                    <input value="<?=$client['nom'];?>" type="text" name="nom" class="form-control"  placeholder="Nom" required>
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Adreça</label>
-                    <input value="<?=$client['adreca'];?>" type="text" name="adreca" class="form-control"  placeholder="Adreça"  required>
+                    <label for="exampleInputPassword1">Fecha</label>
+                    <input value="<?=$client['fecha'];?>" type="data" name="fecha" class="form-control"  placeholder="Fecha"  required>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">CP</label>

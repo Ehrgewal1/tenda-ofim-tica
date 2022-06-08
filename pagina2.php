@@ -8,40 +8,45 @@ $query = "SELECT * FROM policia WHERE id = $id ";
 $result = mysqli_query($dbh, $query);
 $policia = mysqli_fetch_assoc($result);
 ?>
-
 <body>
-
 <?php
 include "includes/header.php";
 ?>
+
+
     <section>
         <h1>Editar</h1>
     </section>
         <div> 
-            <form>
+            <form action="scripts/update_user.php" method="post">
+                <input type="hidden" name="id" value="<?=$policia['id']?>">
+                <fromfield>
                 <div>
                     <label>Nom</label>  
-                    <input type="text" id="nom" placeholder="nom" required="required" value="<?=$policia['nom']?>">
+                    <input name="nom" type="text" id="nom" placeholder="nom" required="required" value="<?=$policia['nom']?>">
                 </div>
                 <div>
-                    <label for="codigopostal">Código Postal</label>
-                    <input type="text" id="codigopostal" placeholder="código postal" maxlength="6" required="required" value="<?=$policia['cp']?>">
+                    <label for="cp">Código Postal</label>
+                    <input name="cp" type="text" id="cp" placeholder="código postal" maxlength="6" required="required" value="<?=$policia['cp']?>">
                 </div>
                 <div>
-                    <label>Data</label>
-                    <input type="date" id="data" naixament required="required" value="<?=$policia['data']?>">
+                    <label>fecha</label>
+                    <input name="fecha" type="date" id="fecha" naixament required="required" value="<?=$policia['fecha']?>">
                 </div>
                 <div>
                     <label for="pais">País</label>
-                    <select name="pais" id="pais" required="required" value="<?=$policia['pais']?>"> 
+                    <select pais="pais" name="pais" id="pais" required="required" value="<?=$policia['pais']?>"> 
                         <option value="ES">España</option>
                         <option value="FR">Francia</option>
                         <option value="IT">Italia</option>
                     </select>
                 </div>
-                <input type="button" value="Enviar"> 
+                <div> 
+                    <button type="submit">Enviar</button>
+                </div>
+            </formfield>
             </form>
-        </div>
+            
 <?php
 include "includes/footer.php";
 ?>
