@@ -11,6 +11,7 @@ include "includes/head.php";
 <?php
 include "includes/header.php";
 ?>
+<div class="background-image">
     <section>
         <h1>Insertar nou client</h1>
     </section>
@@ -47,5 +48,16 @@ include "includes/header.php";
 include "includes/footer.php";
 ?>
 </body>
-
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .background-image {
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Logotipo_del_Cuerpo_Nacional_de_Polic%C3%ADa_de_Espa%C3%B1a.svg/1200px-Logotipo_del_Cuerpo_Nacional_de_Polic%C3%ADa_de_Espa%C3%B1a.svg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+</style>
 </html>
