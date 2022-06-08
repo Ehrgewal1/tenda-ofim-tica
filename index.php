@@ -21,7 +21,7 @@
                 <td>PAÍS</td>
                 <td>CP</td>
                 <td>FECHA</td>
-            <td>Opcions</td>
+                <td>Opcions</td>
             </tr>
     </thead>
 <tbody>
