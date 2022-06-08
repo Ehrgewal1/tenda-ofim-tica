@@ -13,7 +13,7 @@ include "includes/header.php";
         <h1>Insertar nou client</h1>
     </section>
         <div> 
-            <form action="scripts/insert_user.php"; method="POST">
+            <form action="scripts/insert_user.php" method="POST">
                 <input type="hidden" name="id" value="<?=$policia['id']?>">
                 <fromfield>
                 <div>
