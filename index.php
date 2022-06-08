@@ -6,8 +6,8 @@
 <body>
     <div class="background-image">
     <div class="text-center">
-        <h1>Agents</h1>
-        <p>tabla de agents</p>
+        <h1><span>Agents</span></h1>
+        <p><span>tabla de agents</span></p>
         <a href="pagina1.php">
             <input type="button" value="Insertar Client" style="border-bottom-style:solid;margin-bottom: 15px;">
         </a>
