@@ -15,47 +15,14 @@
 <div class="row justify-content-center">
     <div class="col-auto">
         <table class="table table-responsive">
-                <tr>
-                    <td>ID</td>
-                    <td>NOM</td>
-                    <td>PAÍS</td>
-                    <td>CP</td>
-                    <td>Opcions</td>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
-                $query = "SELECT * FROM policia";
-                $result = mysqli_query($dbh, $query) or die (mysqli_error($dbh));
-                while ($row = mysqli_fetch_assoc($result)) {
-                    echo "<tr>
-                            <td>".$row['id']."</td>
-                            <td>".$row['nom']."</td>
-                            <td>".$row['pais']."</td>
-                            <td>".$row['cp']."</td>
-                            <td><a class='btn btn-primary' href='scripts/update_user.php?id=" .$row['id']."'><i class='bi-pen'></i></a></td>
-                            <td><a class='btn btn-danger' href='scripts/delete_user.php?id=" .$row['id']."'><i class='bi-trash'></i></a></td>
-                        </tr>";
-                } ?>
-            </tbody>
-        </table>
-    </div>
-</div>
-</div>
-                    <td>DATA</td>
-            <thead>
-<selection>
-</selection>
-<table>
-    <thead>
-        <tr>
-            <td>ID</td>
-            <td>NOM</td>
-            <td>PAÍS</td>
-            <td>CP</td>
-            <td>FECHA</td>
+            <tr>
+                <td>ID</td>
+                <td>NOM</td>
+                <td>PAÍS</td>
+                <td>CP</td>
+                <td>FECHA</td>
             <td>Opcions</td>
-         </tr>
+            </tr>
     </thead>
 <tbody>
     <?php
