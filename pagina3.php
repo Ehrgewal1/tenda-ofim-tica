@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <?php
 include "includes/head.php";
 $id = $_GET['id'];
@@ -16,7 +15,7 @@ include "includes/header.php";
         <h1>Eliminar</h1>
     </section>
         <div> 
-            <form action="scripts/delete_user.php"; method="POST">
+            <form action="scripts/delete_user.php" method="POST">
             <input type="hidden" name="id" value="<?=$policia['id']?>">
                 <fromfield>
                 <div>
