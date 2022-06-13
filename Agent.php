@@ -6,10 +6,10 @@
 <body>
     <div class="background-image">
     <div class="text-center">
-        <h1><span>Clients</span></h1>
-        <p><span>tabla de Clients</span></p>
-        <a href="pagina1.php">
-            <input type="button" value="Insertar Client" style="border-bottom-style:solid;margin-bottom: 15px;">
+        <h1><span>Agents</span></h1>
+        <p><span>Tabla de Agents</span></p>
+        <a href="pagina4.php">
+            <input type="button" value="Insertar Agent" style="border-bottom-style:solid;margin-bottom: 15px;">
         </a>
     </div>
 <div class="row justify-content-center">
@@ -18,26 +18,24 @@
             <tr>
                 <td>ID</td>
                 <td>NOM</td>
-                <td>PAÍS</td>
-                <td>CP</td>
+                <td>LLINATGE</td>
                 <td>FECHA</td>
-                <td>Opcions</td>
+                <td>OPCIONS</td>
             </tr>
     </thead>
 <tbody>
     <?php
-    $query = "SELECT * FROM policia";
+    $query = "SELECT * FROM Agent";
     $result = mysqli_query($dbh, $query) or die (mysqli_error($dbh));
     while ($row = mysqli_fetch_assoc($result)) {
         echo "<tr>
-                <td>".$row['id']."</td>
-                <td>".$row['nom']."</td>
-                <td>".$row['pais']."</td>
-                <td>".$row['cp']."</td>
-                <td>".$row['fecha']."</td>
+                <td>".$row['id_Agent']."</td>
+                <td>".$row['Nom']."</td>
+                <td>".$row['Llinatge']."</td>
+                <td>".$row['Fecha']."</td>
                 <td>
-                    <a class='btn btn-primary' href='pagina2.php?id=" .$row['id']."'><i class='bi-pen'></i></a>
-                    <a class='btn btn-danger' href='pagina3.php?id=" .$row['id']."'><i class='bi-trash'></i></a>
+                    <a class='btn btn-primary' href='pagina5.php?id_Agent=" .$row['id_Agent']."'><i class='bi-pen'></i></a>
+                    <a class='btn btn-danger' href='pagina6.php?id_Agent=" .$row['id_Agent']."'><i class='bi-trash'></i></a>
                 </td>
             </tr>";
     }
@@ -58,4 +56,3 @@
         </table>
 <?php include 'includes/footer.php';?>
 </body>
-
