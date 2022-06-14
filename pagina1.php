@@ -35,10 +35,14 @@ include "includes/header.php";
                         <option value="IT">Italia</option>
                     </select>
                 </div>
+<<<<<<< Updated upstream
                 <div> 
                     <button type="submit" >Enviar</button>
                 </div>
             </formfield>
+=======
+                <input type="button" value="Enviar" href="scripts/insert_user.php"> 
+>>>>>>> Stashed changes
             </form>
 <?php
 include "includes/footer.php";
