@@ -18,7 +18,7 @@ include "includes/header.php";
         <h1>Editar</h1>
     </section>
         <div> 
-            <form action="scripts/update_user.php" method="post">
+            <form action="scripts/update_user.php" method="POST">
                 <input type="hidden" name="id" value="<?=$policia['id']?>">
                 <fromfield>
                 <div>
